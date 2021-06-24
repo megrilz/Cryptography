@@ -18,9 +18,16 @@ Decrpyted message
 ![image](https://user-images.githubusercontent.com/80080368/123197161-21e94880-d479-11eb-81db-92de54764a7a.png)
 
 
+Generate your own key pair
+
+![image](https://user-images.githubusercontent.com/80080368/123198721-98874580-d47b-11eb-9de3-439f0f9cd7f2.png)
+
+
+
 command to encrypt 
 
 openssl enc -pbkdf2 -nosalt -aes-256-cbc -in meetingplace_update.txt -out meetingplace_update.txt.enc -base64 -K <your_key> -iv <your_iv>
 
+![image](https://user-images.githubusercontent.com/80080368/123199033-206d4f80-d47c-11eb-968b-41c74a546616.png)
 
 
